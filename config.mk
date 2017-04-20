@@ -4,7 +4,7 @@ DEBUGNOCHECK =
 PROFILE = -pg
 OPTIONS = -O3 -fimplicit-none -funroll-loops -mtune=generic -Wall -ftree-vectorizer-verbose=1 -ffast-math  
 LOPTIONS= -static-libgfortran  
-F77= /usr/local/bin/gfortran
+F77= /usr/bin/gfortran
 CPP= cpp
 LIBDIR = ../lib
 CFLAGS = -c $(DEBUG) $(PROFILE) -I$(LIBDIR)
